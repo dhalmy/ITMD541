@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-me {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 2rem auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .about-me h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: #555;
+  }
+  
+  .about-me ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-me ul li {
+    background-color: #e1f5fe;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .about-me ul li p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .about-me ul li::before {
+    color: #29b6f6;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #interests {
+    font-weight: bold;
+    color: #00796b;
+    margin-top: 20px;
+    font-size: 1.3rem;
+  }
